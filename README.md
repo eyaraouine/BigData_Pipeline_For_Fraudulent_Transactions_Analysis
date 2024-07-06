@@ -12,7 +12,7 @@ The dataset "fraud transactions dataset" is accessible on [Kaggle](https://www.k
 - **Fraud indicator**: 1 for fraudulent transactions, 0 for legitimate transactions
 ## Technologies Used
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Apache_Hadoop_logo.svg" alt="Hadoop" width="100" height="60">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hadoop_logo.svg" alt="Hadoop" width="100" height="60">
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" alt="Spark" width="100" height="60">
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Apache_kafka.svg" alt="Kafka" width="100" height="60">
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="MongoDB" width="100" height="60">
@@ -53,6 +53,8 @@ We employed a Lambda architecture to process the data, enabling both real-time a
 3. **Kafka Producer:** Send data to Kafka.
 4. **Kafka Consumer:** Process data using Spark Streaming and store results in MongoDB.
 
-## Visualization
+### Visualization
 - **MongoDB Charts:** Connect to the database and create visualizations.
 - **Reports:** Generate and analyze reports based on the visualized data.
+## Project Demo Video :
+https://youtu.be/Xzhf7nqCp_8
